@@ -23,9 +23,6 @@ def parseJson(channelID,date,file):
 
 
 if __name__ == "__main__":
-    channelID = ""
-    file = ""
-    date = ""
     parser = argparse.ArgumentParser()
     parser.add_argument("-c","--channel", help = "channel ID",required = True)
     parser.add_argument("-d","--date", help = "Date in YEAR-MONTH-DAY format", required = True)
